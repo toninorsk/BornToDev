@@ -1,6 +1,6 @@
 import sqlite3
 
-connection = sqlite3.connect('chinook.db')
+connection = sqlite3.connect('SQL/chinook.db')
 print("Connected to DB successfully!")
 cursor = connection.execute("SELECT * FROM Customers;")
 for row in cursor: 
